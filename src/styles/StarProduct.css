@@ -1,0 +1,20 @@
+.sp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vmax auto ;
+}
+
+.sp div:last-child{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+    width: 41%;
+}
+
+.sp img{
+    transition: all 0.5s;
+}
+.sp img:hover{
+    box-shadow: 6px 6px 15px rgb(53, 53, 53,0.363);
+}
