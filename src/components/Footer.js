@@ -49,7 +49,7 @@ const Footer = ({footer}) => {
             <p>FOLLOW MI</p><span>We want to hear from you!</span>
         </div>
 
-      </div>
+      </div> 
 
 
       <div className="footer">
