@@ -1,0 +1,101 @@
+    .preFooter{
+    margin: 5vmax 0 0 0;
+    padding: 1vmax;
+    padding-bottom: 0;
+    background: white;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.preFooter>div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgba(66, 66, 66, 0.829);
+        cursor: pointer;
+}
+
+.preFooter>div:hover svg{
+    fill: rgb(34, 32, 32);
+}
+
+.preFooter>div:hover p{ 
+    color: rgb(19, 18, 18);
+}
+
+.preFooter svg{
+    transform: scale(1) translateY(-.5vmax);
+}
+
+
+
+.preFooter2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    height: 150px;
+}
+
+.preFooter2>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.preFooter2>div>p{
+    color: rgba(0, 0, 0, 0.842);
+    /* color: red; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5vmax;
+    width: 18vmax;
+    margin: 0%;
+}
+
+.preFooter2>div>span{
+    color: rgba(51, 51, 51, 0.842);
+    width: 18vmax;
+    font-size: 1vmax;
+
+}
+
+.preFooter2>div>div:first-child{
+    border:1px solid rgba(126,126,126,0.493);
+}
+
+.preFooter2>div>div>input{
+    border: none;
+    outline: none;
+    font-size: 1vmax;
+    padding: 0.5vmax 1vmax;
+    background-color: rgb(255, 255, 255);
+    width: 20.4vmax;
+}
+
+.preFooter2>div>div>button{
+    border: none;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    padding: 0.48vmax;
+}
+
+.preFooter2>div>div:last-child{
+    width: 22vmax;
+    color: rgba(51, 51, 51, 0.842);
+    font-size: 1vmax;
+}
+
+.preFooter2>div:nth-child(3)>p{
+    justify-content: center;
+    /* width: 5vmax; */
+}
+
+
+
+
+
+
+
+
+
+
+

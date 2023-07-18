@@ -1,0 +1,34 @@
+.videocard{
+    width: 30vmax;
+    height: 48vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0.5vmax;
+    cursor: pointer;
+}
+
+.videocard>a{
+    padding: 2.5vmax;
+    border: none;
+    transition: all 0.5s;
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.096);
+    /* color: white; */
+}
+
+.videocard>a>svg{
+    fill: white;
+}
+
+.videocard p{
+    color: white;
+    margin: 1vmax;
+}
+
+.videocard:hover a{
+    background-color: rgba(255, 255, 255, 0.671);
+}
